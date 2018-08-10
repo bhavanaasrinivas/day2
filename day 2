@@ -1,0 +1,21 @@
+#include<stdio.h>
+int getnumber(int n1);
+int compute();
+int output(int n1);
+int main()
+{
+    int b,a,c;
+   c= getnumber(b);
+   output(c);
+}
+int getnumber(int n1)
+{
+    printf("enter an integer");
+    scanf("%d",&n1);
+    return n1;
+}
+ 
+ int output(int n1)
+ {
+     printf("the number is %d",n1);
+ }
